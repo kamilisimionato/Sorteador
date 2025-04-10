@@ -1,0 +1,12 @@
+git config --global user.name kamilisimionato
+git config --global user.email kamili.simionato@etec.sp.gov.br
+
+cd Sorteador
+
+npx create-expo-app@latest Sorteador --template blank
+
+npm run reset-project
+n
+
+npx expo start
+npx expo start --localhost --android
